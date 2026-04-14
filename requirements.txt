@@ -1,0 +1,8 @@
+apache-airflow==2.9.0
+pyspark==3.5.1
+mlflow==2.11.0
+duckdb==1.0.0      # For fast local SQL analytics
+pydantic==2.6.0    # For data validation (Reliability)
+pulp==2.8.0        # For the Optimization engine
+delta-spark==3.1.0 # For ACID transactions on your local lake
+pytest             # For unit testing your logic
